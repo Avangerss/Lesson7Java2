@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="318dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/image1" />
+
+    <LinearLayout
+        android:id="@+id/rectangles"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/raunder_fl"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/Date"
+                android:textColor="#999999"
+                android:textSize="12sp" />
+
+            <FrameLayout
+                android:id="@+id/location"
+                android:layout_width="154dp"
+                android:layout_height="48dp"
+                android:layout_gravity="end"
+                android:background="@drawable/button1"
+                android:textColor="#C4C4C4">
+
+                <TextView
+                    android:id="@+id/adress"
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/location"
+                    android:textColor="#0DA0EA"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:drawableEndCompat="@drawable/location" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="20dp"
+            android:padding="10dp">
+
+            <ImageView
+                style="@style/BigText"
+                android:layout_height="30dp"
+                android:src="@drawable/cloud" />
+
+            <TextView
+                style="@style/BigText"
+                android:paddingTop="30dp"
+                android:text="@string/cloudi" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    style="@style/BigText"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:text="@string/gradus3"
+                    android:textSize="40sp" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/gradus" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/gradu37"
+                style="@style/BigText"
+                android:layout_gravity="end"
+                android:text="@string/gradus2"
+                android:textColor="#666666"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/grd"
+                style="@style/BigText"
+                android:layout_gravity="end|bottom"
+                android:layout_marginStart="60dp"
+                android:text="@string/gardus2"
+                android:textColor="#666666"
+                android:textSize="18sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/BigText"
+                    android:src="@drawable/image2" />
+
+                <TextView
+                    style="@style/BigText"
+                    android:text="@string/tv_73" />
+
+                <TextView
+                    style="@style/SmallText"
+                    android:text="@string/tv_2" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        style="@style/BigText"
+                        android:src="@drawable/speed" />
+
+                    <TextView
+                        style="@style/BigText"
+                        android:text="@string/tv_speed" />
+
+                    <TextView
+                        style="@style/SmallText"
+                        android:text="@string/pressure" />
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/BigText"
+                    android:src="@drawable/wet" />
+
+                <TextView
+                    style="@style/BigText"
+                    android:text="@string/tv_11" />
+
+                <TextView
+                    style="@style/SmallText"
+                    android:text="@string/wind" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/BigText"
+                    android:src="@drawable/sun" />
+
+                <TextView
+                    style="@style/BigText"
+                    android:text="@string/_6_03_am" />
+
+                <TextView
+                    style="@style/SmallText"
+                    android:text="@string/sunrise" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/BigText"
+                    android:layout_gravity="center"
+                    android:src="@drawable/san2" />
+
+                <TextView
+                    style="@style/BigText"
+                    android:layout_gravity="center"
+                    android:text="@string/_7_05_pm" />
+
+                <TextView
+                    style="@style/SmallText"
+                    android:layout_gravity="center"
+                    android:text="@string/sunset" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/BigText"
+                    android:src="@drawable/clock" />
+
+                <TextView
+                    style="@style/BigText"
+                    android:text="@string/_13h_1m" />
+
+                <TextView
+                    style="@style/SmallText"
+                    android:text="@string/daytime" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        style="@style/BigText"
+                        android:src="@drawable/sunny1" />
+
+                    <TextView
+                        style="@style/BigText"
+                        android:text="@string/mo" />
+
+                    <TextView
+                        style="@style/BigText"
+                        android:text="@string/_35_c26_c" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        style="@style/BigText"
+                        android:src="@drawable/cloudy2" />
+
+                    <TextView
+                        style="@style/BigText"
+                        android:text="@string/tue_22" />
+
+                    <TextView
+                        style="@style/BigText"
+                        android:text="@string/_35_c27_c" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        style="@style/BigText"
+                        android:src="@drawable/wet" />
+
+                    <TextView
+                        style="@style/BigText"
+                        android:text="@string/wed_22" />
+
+                    <TextView
+                        style="@style/BigText"
+                        android:text="@string/_34_c29_c" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Урок7Java2</string>
+    <string name="Date">Воскресенье, 19 мая 2019 г. | 21:30</string>
+    <string name="location">Мумбаи, Индия</string>
+    <string name="cloud">Облачно</string>
+    <string name="cloudi">Облачно</string>
+    <string name="gradus2">35°C↑</string>
+    <string name="gardus2">27°C↓</string>
+    <string name="gradus3">29</string>
+    <string name="tv_73">73%</string>
+    <string name="tv_speed">1009 мБар</string>
+    <string name="tv_2">Влажность</string>
+    <string name="tv_11">11 km/h</string>
+    <string name="wind">Ветер</string>
+    <string name="pressure">Давление</string>
+    <string name="mo">Пн, 21</string>
+    <string name="wed_22">Ср, 22</string>
+    <string name="_34_c29_c">34°C29°C</string>
+    <string name="_35_c26_c">35°C26°C</string>
+    <string name="tue_22">Вт, 22</string>
+    <string name="_35_c27_c">35°C27°C</string>
+    <string name="_13h_1m">13ч 1м</string>
+    <string name="daytime">Дневное время</string>
+    <string name="_7_05_pm">7:05 ВЕЧЕРА</string>
+    <string name="sunset">Закат</string>
+    <string name="_6_03_am">6:03 Полудня</string>
+    <string name="sunrise">Восход</string>
+
+
+
+
+
+
+</resources>
